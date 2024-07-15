@@ -1,0 +1,26 @@
+git init
+git status (opcional)
+git add . (nombre del doc si queremos algo en especifico, punto si todo )
+git commit -m "Primer commit"
+
+//en caso de no esta configurada la cuenta se realiza lo siguiente:
+
+git config --global user.email javier@gmail.com
+git config --global user.name javiergd
+//
+git commit -m "Primer commit"
+git branch -M main //rama main
+
+//colocamos el git remote add que nos entrega github
+
+git push -u origin main
+//sale el log
+
+
+//si deseamos hacer commit
+git add . 
+git commit -m "Segundo commit"
+git push -u origin main
+
+//hace un llamado al enlace entre lo que tengo local y la nube
+git remote add origin https://github.com/fernandacojulun/javascript-curso.git
