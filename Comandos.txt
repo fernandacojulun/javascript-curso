@@ -1,8 +1,7 @@
 git init
 git status (opcional)
 git add . (nombre del doc si queremos algo en especifico, punto si todo )
-1. git add NOMBRE_DEL_ARCHIVO
- git commit -m "Primer commit"
+git commit -m "Primer commit"
 
 //en caso de no esta configurada la cuenta se realiza lo siguiente:
 
@@ -19,9 +18,9 @@ git push -u origin main
 
 
 //si deseamos hacer commit
-1. git add . / git add Nombre archivo
-2. git commit -m "Segundo commit"
-3. git push -u origin main
+git add . 
+git commit -m "Segundo commit"
+git push -u origin main
 
 //hace un llamado al enlace entre lo que tengo local y la nube
 git remote add origin https://github.com/fernandacojulun/javascript-curso.git
